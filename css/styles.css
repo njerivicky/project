@@ -1,0 +1,131 @@
+body{
+    width: 90%;
+    align-content: center;
+    margin: 50px;
+}
+.toplinks{
+    list-style-type: none;
+    background-color: #1c1f23;
+    padding: 5px;
+    overflow: hidden;
+    font-weight: bold;
+}
+nav li{
+    float: right;
+}
+nav h1{
+    float: left;
+    color: darkred;
+    text-decoration: none;
+    font-family: "Lucida Handwriting";
+    font-size: 30px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding:20px 20px;
+}
+nav li a:hover{
+    background-color: darkred;
+}
+.hellotext{
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 40px;
+    color: darkred;
+}
+.flexbox{
+  display: flex;
+}
+.left{
+    text-align: left;
+}
+.flexbox >div{
+    margin: 2px;
+    padding: 2px;
+}
+
+.flex-contain{
+  display: flex;
+}
+.flex-contain > div {
+    margin: 3px;
+    padding: 3px;
+
+}
+.mytexts{
+    float: left;
+    text-align: center;
+    font-family: "Calibri Light";
+    font-size: 20px;
+}
+.mypic{
+    display: block;
+    width: 500px;
+    height: 360px;
+    float: right;
+    border-radius: 50%;
+}
+.container{
+    width: 65%;
+    padding-top: unset;
+    background: #1c1f23;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-label {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.col-input {
+    width: 60%;
+    margin-top: 5px;
+}
+input,textarea{
+    margin-top: 10px;
+    width: 50%;
+    padding: 5px;
+    border-radius: 4px;
+    resize: vertical;
+    border-color: darkred;
+}
+label {
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+    color: darkred;
+}
+
+.submitbtn{
+    padding: 12px 10px;
+    width: 25%;
+    border-radius: 20px;
+    float: left;
+    border-color: white;
+    background-color: darkred;
+    font-size: 15px;
+}
+.center{
+    text-align: center;
+}
+.contact{
+    float: right;
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+    color: darkred;
+}
+.socials{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+
+}
+
